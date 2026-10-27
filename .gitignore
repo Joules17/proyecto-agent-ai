@@ -1,0 +1,22 @@
+.env
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Datos generados en ejecución
+persist/
+temp_files/
+doc_sage.sqlite
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Estado y registros del agente / servidor MCP
+data/devoluciones.sqlite
+logs/
+.pytest_cache/

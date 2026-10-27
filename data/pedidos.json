@@ -1,0 +1,158 @@
+[
+  {
+    "numero": "ECO-1001",
+    "cliente": "Laura",
+    "ciudad": "Medellín",
+    "productos": [
+      "Botella térmica de acero inoxidable 750 ml"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-09-01",
+    "entrega_estimada": "2026-09-05",
+    "fecha_entrega": "2026-09-05",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1001"
+  },
+  {
+    "numero": "ECO-1002",
+    "cliente": "Andrés",
+    "ciudad": "Bogotá",
+    "productos": [
+      "Bolsas reutilizables de algodón orgánico (x5)",
+      "Kit de cubiertos de bambú"
+    ],
+    "estado": "En tránsito",
+    "fecha_compra": "2026-09-12",
+    "entrega_estimada": "2026-09-17",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1002"
+  },
+  {
+    "numero": "ECO-1003",
+    "cliente": "Camila",
+    "ciudad": "Cali",
+    "productos": [
+      "Cepillo de dientes de bambú (x4)",
+      "Champú sólido de lavanda"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-09-05",
+    "entrega_estimada": "2026-09-10",
+    "fecha_entrega": "2026-09-10",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1003"
+  },
+  {
+    "numero": "ECO-1004",
+    "cliente": "Julián",
+    "ciudad": "Bogotá",
+    "productos": [
+      "Compostera doméstica 20 L"
+    ],
+    "estado": "Retrasado",
+    "fecha_compra": "2026-09-03",
+    "entrega_estimada": "2026-09-12",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1004",
+    "motivo_retraso": "Cierre vial por lluvias en la ruta Medellín-Bogotá"
+  },
+  {
+    "numero": "ECO-1005",
+    "cliente": "Valentina",
+    "ciudad": "Barranquilla",
+    "productos": [
+      "Camiseta de algodón orgánico"
+    ],
+    "estado": "En preparación",
+    "fecha_compra": "2026-09-14",
+    "entrega_estimada": "2026-09-20",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1005"
+  },
+  {
+    "numero": "ECO-1006",
+    "cliente": "Santiago",
+    "ciudad": "Bucaramanga",
+    "productos": [
+      "Camiseta de algodón orgánico"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-07-15",
+    "entrega_estimada": "2026-07-20",
+    "fecha_entrega": "2026-07-20",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1006"
+  },
+  {
+    "numero": "ECO-1007",
+    "cliente": "Mariana",
+    "ciudad": "Pereira",
+    "productos": [
+      "Envolturas de cera de abejas (x3)",
+      "Bolsas reutilizables de algodón orgánico (x5)"
+    ],
+    "estado": "Enviado",
+    "fecha_compra": "2026-09-13",
+    "entrega_estimada": "2026-09-16",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1007"
+  },
+  {
+    "numero": "ECO-1008",
+    "cliente": "Felipe",
+    "ciudad": "Manizales",
+    "productos": [
+      "Café orgánico de comercio justo 500 g",
+      "Miel cruda de abejas nativas 350 g"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-09-08",
+    "entrega_estimada": "2026-09-12",
+    "fecha_entrega": "2026-09-12",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1008"
+  },
+  {
+    "numero": "ECO-1009",
+    "cliente": "Daniela",
+    "ciudad": "Cartagena",
+    "productos": [
+      "Tarjeta de regalo digital"
+    ],
+    "estado": "Cancelado",
+    "fecha_compra": "2026-09-02",
+    "nota": "Reembolso realizado el 2026-09-03"
+  },
+  {
+    "numero": "ECO-1010",
+    "cliente": "Tomás",
+    "ciudad": "Villavicencio",
+    "productos": [
+      "Lámpara solar LED para jardín",
+      "Botella térmica de acero inoxidable 750 ml"
+    ],
+    "estado": "Retrasado",
+    "fecha_compra": "2026-09-06",
+    "entrega_estimada": "2026-09-11",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1010",
+    "motivo_retraso": "Alto volumen de pedidos en el centro de distribución"
+  },
+  {
+    "numero": "ECO-1011",
+    "cliente": "Isabella",
+    "ciudad": "Medellín",
+    "productos": [
+      "Lámpara solar LED para jardín"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-07-28",
+    "entrega_estimada": "2026-08-01",
+    "fecha_entrega": "2026-08-01",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1011"
+  },
+  {
+    "numero": "ECO-1012",
+    "cliente": "Sebastián",
+    "ciudad": "Bogotá",
+    "productos": [
+      "Toallas de tela reutilizables para higiene íntima (x6)"
+    ],
+    "estado": "Entregado",
+    "fecha_compra": "2026-09-07",
+    "entrega_estimada": "2026-09-13",
+    "fecha_entrega": "2026-09-13",
+    "rastreo": "https://rastreo.ecomarket.example/ECO-1012"
+  }
+]
