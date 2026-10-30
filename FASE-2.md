@@ -47,5 +47,8 @@ Cuando algo falla:
 
 `evaluar_agente.py` corre 11 conversaciones (12 turnos) y revisa en cada turno la ruta elegida y
 qué tools se deben y no se deben llamar. Así se comprueba que el agente distingue cuándo usar
-herramientas y cuándo responder directamente. El detalle, con las respuestas de Eco, está en
-[evaluacion/resultados.md](evaluacion/resultados.md).
+herramientas y cuándo responder directamente.
+
+**Resultado: 12/12 turnos aprobados.** El agente pidió confirmación antes de generar la etiqueta,
+no obedeció el intento de saltarse las reglas y no inventó datos con un pedido inexistente. El
+detalle, con las respuestas de Eco, está en [evaluacion/resultados.md](evaluacion/resultados.md).
