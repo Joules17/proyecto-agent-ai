@@ -40,8 +40,8 @@ FORMATO_PEDIDO = re.compile(r"^ECO-?\s?(\d{4})$", re.IGNORECASE)
 
 def fecha_hoy() -> date:
     """Fecha "actual" del sistema. Se fija por variable de entorno para que los pedidos
-    de prueba (septiembre de 2026, los mismos del Taller 1) den siempre el mismo resultado."""
-    return date.fromisoformat(os.getenv("ECOMARKET_FECHA_HOY", "2026-09-15"))
+    de prueba (octubre de 2026, los del Taller 1 corridos 44 días) den siempre el mismo resultado."""
+    return date.fromisoformat(os.getenv("ECOMARKET_FECHA_HOY", "2026-10-29"))
 
 
 def db_path() -> Path:

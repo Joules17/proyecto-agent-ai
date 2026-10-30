@@ -7,7 +7,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 load_dotenv()
 
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-FECHA_HOY = os.getenv("ECOMARKET_FECHA_HOY", "2026-09-15")
+FECHA_HOY = os.getenv("ECOMARKET_FECHA_HOY", "2026-10-29")
 
 llm = ChatGoogleGenerativeAI(
     model=GEMINI_MODEL,

@@ -8,7 +8,7 @@ from mcp_server import devoluciones as d
 @pytest.fixture(autouse=True)
 def entorno(tmp_path, monkeypatch):
     monkeypatch.setenv("ECOMARKET_DB", str(tmp_path / "estado.sqlite"))
-    monkeypatch.setenv("ECOMARKET_FECHA_HOY", "2026-09-15")
+    monkeypatch.setenv("ECOMARKET_FECHA_HOY", "2026-10-29")
 
 
 @pytest.mark.parametrize(
@@ -73,7 +73,7 @@ def test_etiqueta_idempotente():
 
     primera = d.generar_etiqueta(v["verificacion_id"])
     assert primera["ok"] and primera["ya_existia"] is False
-    assert primera["enviar_antes_de"] == "2026-09-22"
+    assert primera["enviar_antes_de"] == "2026-11-05"
 
     # Otro motivo para el mismo producto no genera una segunda etiqueta
     otra = d.verificar_elegibilidad("ECO-1001", "botella", "no_satisfecho")

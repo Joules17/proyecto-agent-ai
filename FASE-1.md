@@ -122,7 +122,7 @@ aunque el historial del chat solo guarde texto.
 |---|---|
 | **Propósito** | Generar la guía prepagada, solo después de que el cliente confirma. |
 | **Entrada** | `verificacion_id: str` |
-| **Salida** | `{"ok": true, "numero_etiqueta": "ETQ-20260915-0001", "pedido", "producto", "transportadora", "url_etiqueta", "enviar_antes_de", "reembolso", "instrucciones": [...], "ya_existia": bool}` |
+| **Salida** | `{"ok": true, "numero_etiqueta": "ETQ-20261029-0001", "pedido", "producto", "transportadora", "url_etiqueta", "enviar_antes_de", "reembolso", "instrucciones": [...], "ya_existia": bool}` |
 | **Errores** | `VERIFICACION_NO_ENCONTRADA`, `NO_ELEGIBLE` |
 
 La tool solo recibe el `verificacion_id`, no los datos del pedido. Así el LLM no puede armar una
